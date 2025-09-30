@@ -1,0 +1,5 @@
+group_data = df.groupby("listed_in(type)")["votes"].sum()
+result = pd.DataFrame({"votes": group_data})
+plt.plot(result, c="green", marker="o")
+plt.xlabel("Types of restaurant")
+plt.ylabel("Votes")
