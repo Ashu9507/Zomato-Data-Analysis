@@ -4,7 +4,6 @@ Which types of restaurants are most favored by the general public?
 What price range do couples prefer for dining out?
 """
 
-import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
